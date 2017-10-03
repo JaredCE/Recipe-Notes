@@ -1,0 +1,25 @@
+{
+  "name": "recipe_notes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An integration of Microsoft One Note for use with Amazon Alexa concentrating on reading recipes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaredCE/Recipe-Notes.git"
+  },
+  "author": "Jared Evans",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JaredCE/Recipe-Notes/issues"
+  },
+  "homepage": "https://github.com/JaredCE/Recipe-Notes#readme",
+  "dependencies": {
+    "@microsoft/microsoft-graph-client": "^1.0.0",
+    "alexa-sdk": "^1.0.14",
+    "voice-insights-sdk": "^1.2.2"
+  }
+}
